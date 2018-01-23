@@ -8,12 +8,15 @@
 
 #include <iostream>
 
-
 using namespace std;
 
 int main()
 {
     // insert code here...
     std::cout << "Hello, World!" << endl;
-    return 0;
+    string word;
+    getline(cin, word);
+//    cin >> word;
+    cout << "Hello " << word << endl;
+    return 17;
 }
